@@ -1,15 +1,15 @@
 fileFormatVersion: 2
 guid: 72815344e9e9c7446895e130936932d7
-timeCreated: 1471611776
-licenseType: Store
 NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
 AssetOrigin:
   serializedVersion: 1
-  productId: 73777
-  packageName: Legacy Particle Pack
-  packageVersion: 6.0
+  productId: 255996
+  packageName: Exploding Objects
+  packageVersion: 1.1
   assetPath: Assets/EffectExamples/FireExplosionEffects/Materials/DebrisParticle.mat
-  uploadId: 871050
+  uploadId: 850400
