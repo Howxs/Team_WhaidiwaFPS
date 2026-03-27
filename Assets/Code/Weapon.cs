@@ -60,10 +60,10 @@ public class Weapon : MonoBehaviour
 
         bulletsLeft = magazineSize;
 
-        // 2. ให้มันพยายามหา Player ที่เป็น Object แม่ก่อน (ปกติปืนจะอยู่ภายใต้ Player)
+        // 2. ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝัน๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ Player ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ Object ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝอน (๏ฟฝ๏ฟฝ๏ฟฝิปืน๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ Player)
         player = GetComponentInParent<Player>();
 
-        // ถ้ายังหาไม่เจออีก ค่อยหาจากทั้งฉาก
+        // ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝัง๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝีก ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝ๏ฟฝาจาก๏ฟฝ๏ฟฝ้งฉาก
         if (player == null)
         {
             player = FindObjectOfType<Player>();
